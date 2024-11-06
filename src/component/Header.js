@@ -1,10 +1,8 @@
 import React from "react";
 import PageNavigation from "./PageNavigation";
-import DropDown from "./DropDown";
 
 const Header = () => {
   const data = "Inventory";
-  const title = "Nanny's Shop";
   return (
     <>
       <div className="header">
@@ -12,7 +10,13 @@ const Header = () => {
           <h2>Inventory</h2>
         </div>
         <div className="d-flex mt-2">
-          <DropDown title={title} />
+          <div>
+            <select id="country" name="country" className="nanny">
+              <option value="australia">Nanny's Shop</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
           <img src="/image/Notification.png" className="mx-4" />
           <img src="/image/profile 1.png" />
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import NewInventory from "./NewInventory";
+import NewInventoryItemsData from "./NewInventoryItemsData";
 
 const NewProduct = () => {
   return (
@@ -10,6 +12,10 @@ const NewProduct = () => {
         <div className="container-fluid">
           <div className="body">
             <Header />
+          </div>
+          <div className="bg-light pb-5">
+            <NewInventory />
+            <NewInventoryItemsData />
           </div>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import React from "react";
-import DropDown from "./DropDown";
 
 const InventoryItems = () => {
-  const title = "Bulk Action";
   return (
     <div>
       <div className="container-fluid p-3 d-flex justify-content-between mt-4">
@@ -23,7 +21,13 @@ const InventoryItems = () => {
             <img src="/Image/Send.png" />
             Share
           </button>
-          <DropDown title={title} />
+          <div>
+            <select id="country" name="country" className="bulk">
+              <option value="australia">Bulk Action</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>

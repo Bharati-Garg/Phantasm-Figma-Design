@@ -7,36 +7,12 @@ const LowStock = () => {
         <div className="bg-white p-4 all">
           <div className="d-flex justify-content-between">
             <img src="/image/icon (1).png" />
-            <div className="dropdown">
-              <button
-                className="btn btn-white dropdown-toggle text-secondary"
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                This Week
-              </button>
-              <ul
-                className="dropdown-menu"
-                aria-labelledBy="dropdownMenuButton1"
-              >
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
+            <div>
+              <select id="country" name="country" className="week">
+                <option value="australia">This Week</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
             </div>
           </div>
           <div className="row">

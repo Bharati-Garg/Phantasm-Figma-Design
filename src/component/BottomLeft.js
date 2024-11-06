@@ -4,7 +4,13 @@ const BottomLeft = () => {
   return (
     <>
       <div className="d-flex">
-        <button className="bottom px-5 mx-4">10 </button>
+        <div>
+          <select id="country" name="country" className="ten">
+            <option value="australia">10</option>
+            <option value="canada">20</option>
+            <option value="usa">30</option>
+          </select>
+        </div>
         <p className="px-5 mx-1">Items per page</p>
         <p className="px-5 mx-1">1-10 of 200 items</p>
       </div>
