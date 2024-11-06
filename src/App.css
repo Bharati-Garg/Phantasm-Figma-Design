@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	background:#fff;
+}
+.done{
+	 background: #fdebd5;
+	 border: none;	 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home{
+	display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button{
+	background: #5570F1;
+    width: 205px;
+    height: 36px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+	border-radius: 10px ;
+}
+.twobox{
+	display: flex;
+	padding-top: 20px;
+}
+.all{
+	border-radius: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.active{
+	font-size: x-small;
+	color: #fff;
+}
+.expired{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #8B8D97;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #8B8D97;
+}
+
+.side-btn{
+padding: 8px 0px 0px 0px;
+border-radius: 10px ;
+border: 1px solid #53545C
+}
+
+.main{
+background: #fff;
+
+}
+.mainpage{
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.heading{
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #2C2D33;
+
+}
+.publishbtn{
+	border: none;
+	border-radius: 8px;
+	background-color: #5E636614;
+}
+
+.statusbtn{
+	background: #5570F129;
+    border: none;
+	border-radius: 8px;
+	color: #5570F1;
+
+}
+
+
+.window{
+	color: #2C2D33;
+	width: 24px;
+    height: 24px;
+}
+
+.folder{
+	padding: 10px;
+	background-color: #5570F1;
+	border-radius: 10px;
+}
+
+
+.bottomicon{
+	color: #2C2D33;
+	width: 24px;
+    height: 24px;
+	margin-top: 300px;	
+}
+
+.headphone{
+	background-color: #0698f31a;
+    width: 56px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 16px 
+}
+
+.gift{
+	background: #FFCC9133;
+	width: 56px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 16px 
+}
+.red-folder{
+	width: 46px;
+    height: 46px;
+    padding: 10px;
+	color: #CC5F5F;
+}
+
+
+.bottom{
+	background: #eee6e6;
+	border-radius: 10px;
+	border: none;
+	
 }
