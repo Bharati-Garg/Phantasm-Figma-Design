@@ -4,11 +4,11 @@ import ProductCard from "./ProductCard";
 
 const Product = () => {
   return (
-    <div>
+    <>
       {productData.map((value, index) => {
         return <ProductCard details={value} key={index} />;
       })}
-    </div>
+    </>
   );
 };
 

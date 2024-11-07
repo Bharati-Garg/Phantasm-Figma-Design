@@ -1,4 +1,4 @@
-import React from "react";
+import { FaArrowsLeftRight } from "react-icons/fa6";
 
 const BottomRight = () => {
   return (
@@ -12,7 +12,7 @@ const BottomRight = () => {
           </select>
         </div>
         <p className="px-5 mx-1">of 44 pages</p>
-        <img src="/Image/Frame 5798.png" className="px-5 mx-1" />
+        <FaArrowsLeftRight className="mt-2 me-4" />
       </div>
     </>
   );

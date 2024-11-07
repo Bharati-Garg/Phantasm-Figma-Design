@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NewInventory = () => {
   return (
@@ -11,9 +12,11 @@ const NewInventory = () => {
           <button className="text-white bg-dark border border-0 button">
             Save as Draft
           </button>
-          <button className="text-white bg-primary border border-0 button">
-            Save & Publish
-          </button>
+          <Link to="/viewpage">
+            <button className="text-white bg-primary border border-0 button">
+              Save & Publish
+            </button>
+          </Link>
         </div>
       </div>
     </div>

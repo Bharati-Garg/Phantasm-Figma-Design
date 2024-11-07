@@ -4,7 +4,7 @@ import BottomRight from "./BottomRight";
 
 const Bottom = () => {
   return (
-    <div className="d-flex justify-content-between">
+    <div className="bottom-content">
       <BottomLeft />
       <BottomRight />
     </div>

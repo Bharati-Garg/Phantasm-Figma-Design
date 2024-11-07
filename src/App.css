@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-.body{
-	margin-left: 20px;
-	margin-right: 20px;
-}
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -15,9 +12,11 @@
 }
 
 .nanny{
-width: 100px;
-height: 50px;
-background-color: #f2f2f5;
+	background: #FEF5EA;
+padding: 5px 12px 5px 12px;
+gap: 10px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
 border: none;
 border-radius: 8px;
 }
@@ -50,10 +49,12 @@ border-radius: 8px;
 	margin-left: 10px;
 	border-radius: 10px ;
 }
+
 .twobox{
 	display: flex;
 	padding-top: 20px;
 }
+
 .all{
 	border-radius: 12px;
 }
@@ -62,6 +63,7 @@ border-radius: 8px;
 	font-size: x-small;
 	color: #fff;
 }
+
 .expired{
 font-size: 14px;
 font-weight: 400;
@@ -79,7 +81,6 @@ color: #8B8D97;
 }
 
 .side-btn{
-padding: 8px 0px 0px 0px;
 border-radius: 10px ;
 border: 1px solid #53545C
 }
@@ -101,6 +102,10 @@ text-align: left;
 color: #2C2D33;
 }
 
+.hr{
+color: #dfdfe2;
+}
+
 .publishbtn{
 	border: none;
 	border-radius: 8px;
@@ -114,19 +119,20 @@ color: #2C2D33;
 	color: #5570F1;
 }
 
-
 .window{
 	color: #2C2D33;
 	width: 24px;
     height: 24px;
 }
 
+li{
+	list-style: none;
+}
 .folder{
 	padding: 10px;
 	background-color: #5570F1;
 	border-radius: 10px;
 }
-
 
 .bottomicon{
 	color: #2C2D33;
@@ -209,6 +215,7 @@ color: #2C2D33;
 	width: 40px;
 	height: 20px;
 }
+
 .add-discount{
 	margin-left: 150px;
 }
@@ -241,7 +248,6 @@ color: #2C2D33;
 	padding: 10px;
 	border-radius: 5px;
 }
-
 
 #getData {
     width: 290px;
@@ -286,7 +292,6 @@ color: #2C2D33;
 	margin-left: 40px;
 }
 
-
 .square{
 	border: 2px solid rgb(238, 236, 236);
 	border-style: dashed;
@@ -294,4 +299,224 @@ color: #2C2D33;
 	height: 100px;
 	margin: 20px;
 	border-radius: 10px;
+}
+
+.tshirt{
+	background-color: #fff;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+
+
+.publish{
+	background-color: rgb(205, 238, 205);
+	border-radius: 5px;
+	padding-inline: 10px;
+	color: green;	
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.price{
+color: #8B8D97;
+font-size: 12px;
+font-weight: 400;
+line-height: 0px;
+text-align: left;
+}
+
+.stock{
+font-size: 12px;
+font-weight: 400;
+line-height: 0px;
+text-align: left;
+color: #8B8D97;
+}
+
+.p{
+color: #45464E;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+
+}
+
+.s{
+	color: #45464E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+
+}
+
+.pie{
+	background: #5570F114;
+	font-size: xx-large;
+	padding: 0px 7px 3px 7px;
+}
+
+.all-time{
+    color: #BEC0CA;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+	border: none;
+}
+.total{
+	margin-top: 30px;
+	color: #8B8D97;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: left;
+}
+
+.N{
+font-size: 20px;
+font-weight: 500;
+line-height: 1;
+text-align: left;
+color: #45464E;
+}
+
+.eye{
+	background: #FFCC9129;
+	font-size: xx-large;
+	padding: 0px 7px 3px 7px;
+}
+
+.tab{
+	padding-right: 85px;
+}
+
+.view-main-section{
+ height: 700px;
+}
+
+.image{
+	margin-left: 40px;
+}
+
+.img{
+	margin-right: 40px;
+}
+
+.items{
+	display: flex;
+}
+
+.inventory-item{
+	display: flex;
+	justify-content: space-between;
+}
+
+.share{
+	display: flex;
+}
+
+.bottom-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* responsive  1024 991 767 576 450 300*/
+@media(max-width:1071px){
+
+.image{
+	margin-left: 40px;
+}
+
+.img{
+	margin-right: 10px;
+}
+}
+
+@media(max-width:970px){
+
+.image{
+	margin-left: 40px;
+}
+
+.img{
+	margin-right: 10px;
+}
+}
+
+@media(max-width:767px){
+
+.image{
+	margin-left: 40px;
+}
+
+.img{
+	margin-right: 10px;
+}
+
+}
+
+@media(max-width:677px){
+
+.image{
+	margin-left: 10px;
+}
+
+.img{
+	margin-right: 10px;
+}
+
+}
+
+
+@media(max-width:576px){
+
+.image{
+	margin-left: 0px;
+}
+
+.img{
+	margin-right: 0px;
+}
+.items{
+	display: block;
+}
+
+.inventory-item{
+	display: block;
+}
+.share{
+	display: block;
+}
+
+.bottom-content{
+	display: block;	
+}
+}
+
+@media(max-width:450px){
+
+.image{
+	margin-left: 30px;
+}
+
+.img{
+	margin-right: 0px;
+}
+.share{
+	display: block;
+}
+}
+
+@media(max-width:300px){
+
+.image{
+	margin-left: 30px;
+}
+
+.img{
+	margin-right: 0px;
+}
 }

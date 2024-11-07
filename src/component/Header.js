@@ -1,8 +1,7 @@
 import React from "react";
-import PageNavigation from "./PageNavigation";
+import Breadcrum from "./Breadcrum";
 
 const Header = () => {
-  const data = "Inventory";
   return (
     <>
       <div className="header">
@@ -18,12 +17,12 @@ const Header = () => {
             </select>
           </div>
           <img src="/image/Notification.png" className="mx-4" />
-          <img src="/image/profile 1.png" />
+          <img src="/image/profile 1.png" className="me-5" />
         </div>
       </div>
       <div>
-        <hr className="mb-0" />
-        <PageNavigation data={data} />
+        <hr className="mb-0 hr" />
+        <Breadcrum />
       </div>
     </>
   );

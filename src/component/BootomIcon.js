@@ -5,22 +5,16 @@ import { Link } from "react-router-dom";
 
 const BottomIcon = () => {
   return (
-    <div className="bottomicon ">
-      <div className="m-4">
-        <Link className="headphone">
-          <CiHeadphones className="window" />
-        </Link>
-      </div>
-      <div className="m-4">
-        <Link className="gift">
-          <CiGift className="window" />
-        </Link>
-      </div>
-      <div className="m-4 pt-2">
-        <Link>
-          <RiFolderSharedLine className="red-folder" />
-        </Link>
-      </div>
+    <div>
+      <li>
+        <CiHeadphones className="window mb-2" />
+      </li>
+      <li>
+        <CiGift className="window mb-2" />
+      </li>
+      <li>
+        <RiFolderSharedLine className="red-folder mb-5" />
+      </li>
     </div>
   );
 };

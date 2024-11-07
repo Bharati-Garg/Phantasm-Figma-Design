@@ -3,6 +3,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Body from "./component/Body";
 import NewProduct from "./component/NewProduct";
+import ViewPage from "./component/ViewPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/NewProduct" element={<NewProduct />} />
+          <Route path="/viewpage" element={<ViewPage />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -12,7 +12,7 @@ const BottomLeft = () => {
           </select>
         </div>
         <p className="px-5 mx-1">Items per page</p>
-        <p className="px-5 mx-1">1-10 of 200 items</p>
+        <p className="">1-10 of 200 items</p>
       </div>
     </>
   );
