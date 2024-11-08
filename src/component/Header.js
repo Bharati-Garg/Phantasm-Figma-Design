@@ -16,8 +16,8 @@ const Header = () => {
               <option value="usa">USA</option>
             </select>
           </div>
-          <img src="/image/Notification.png" className="mx-4" />
-          <img src="/image/profile 1.png" className="me-5" />
+          <img src="/Image/Notification.png" className="mx-4" />
+          <img src="/Image/profile 1.png" className="me-5" />
         </div>
       </div>
       <div>

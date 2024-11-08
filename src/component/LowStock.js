@@ -6,7 +6,7 @@ const LowStock = () => {
       <div>
         <div className="bg-white p-4 all">
           <div className="d-flex justify-content-between">
-            <img src="/image/icon (1).png" />
+            <img src="/Image/icon (1).png" />
             <div>
               <select id="country" name="country" className="week">
                 <option value="australia">This Week</option>

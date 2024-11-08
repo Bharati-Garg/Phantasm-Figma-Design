@@ -1,9 +1,8 @@
-import React from "react";
 import NewInventoryItemsLeft from "./NewInventoryItemsLeft";
 import NewInventoryItemsRight from "./NewInventoryItemsRight";
-import NewInventoryImageField from "./NewInventoryImageField";
+import ThirdPageImageField from "./ThirdPageImageField";
 
-const NewInventoryItemsData = () => {
+const ThirdPageFullData = () => {
   return (
     <>
       <div className="container-fluid ms-4">
@@ -19,11 +18,12 @@ const NewInventoryItemsData = () => {
             </div>
           </div>
           <div className="col-md-3 bg-white column-two col-sm-4 mt-sm-5">
-            <NewInventoryImageField />
+            <ThirdPageImageField />
           </div>
         </div>
       </div>
     </>
   );
 };
-export default NewInventoryItemsData;
+
+export default ThirdPageFullData;

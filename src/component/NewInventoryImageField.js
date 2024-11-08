@@ -8,7 +8,7 @@ const NewInventoryImageField = () => {
     <>
       <div>
         <DragBox />
-        <div className="d-flex">
+        <div className="small-drag">
           <AdditionalImage />
           <SquareBox />
         </div>

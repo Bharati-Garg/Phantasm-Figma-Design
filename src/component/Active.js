@@ -5,7 +5,7 @@ const Active = () => {
     <div>
       <div>
         <div className="bg-primary p-4 all">
-          <img src="/image/icon.png" />
+          <img src="/Image/icon.png" />
           <div className="row">
             <div className="col-md-6">
               <p className="text-white pt-3">All Products</p>

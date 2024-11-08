@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-
 .header{
 	display: flex;
 	justify-content: space-between;
-	background:#fff;
+	background-color: #fff;
 }
 
 .nanny{
@@ -125,6 +124,21 @@ color: #dfdfe2;
     height: 24px;
 }
 
+.window-active{
+	background-color: #5570F1;
+	border-radius: 10px;
+	width: 40px;
+	height: 44px;
+}
+
+.window-folder{
+	color: #fff;
+	width: 34px;
+    height: 34px;
+	padding-left: 7px;
+	padding-bottom: 10px;
+}
+
 li{
 	list-style: none;
 }
@@ -239,6 +253,7 @@ li{
 
 .column-two{
 	border-radius: 10px;
+	margin-left: 50px;
 }
 
 .date{
@@ -300,13 +315,15 @@ li{
 	margin: 20px;
 	border-radius: 10px;
 }
+.small-drag{
+	display: flex;
+}
 
 .tshirt{
 	background-color: #fff;
 	border-radius: 20px;
 	margin-left: 10px;
 }
-
 
 .publish{
 	background-color: rgb(205, 238, 205);
@@ -422,6 +439,16 @@ color: #45464E;
 	justify-content: space-between;
 }
 
+.tshirt-img{
+	width: 99%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.small-tshirt{
+	width: 45%;
+margin-top: 2px;
+	margin-right: 10px;
+}
 
 /* responsive  1024 991 767 576 450 300*/
 @media(max-width:1071px){
@@ -432,6 +459,26 @@ color: #45464E;
 
 .img{
 	margin-right: 10px;
+}
+
+#getData {
+    width: 190px;
+}
+
+
+.square{
+	margin-left: 0px;
+}
+
+.small-drag{
+	display: block;
+}
+
+.input{
+	width: 200px;
+}
+.message{
+	width: 200px;
 }
 }
 
@@ -444,6 +491,18 @@ color: #45464E;
 .img{
 	margin-right: 10px;
 }
+
+#getData {
+    width: 150px;
+	height: 220px;
+}
+.upload-img{
+	margin-left: 0px;
+}
+.uploadimg{
+	margin-left: 0px;
+}
+
 }
 
 @media(max-width:767px){
@@ -471,7 +530,7 @@ color: #45464E;
 }
 
 
-@media(max-width:576px){
+@media(max-width:575px){
 
 .image{
 	margin-left: 0px;
@@ -494,6 +553,18 @@ color: #45464E;
 .bottom-content{
 	display: block;	
 }
+
+.cost{
+	display: block;
+}
+
+.column-one{
+	margin-bottom: 30px;
+}
+.column-two{
+	margin-left: 0px;
+}
+
 }
 
 @media(max-width:450px){
@@ -508,6 +579,7 @@ color: #45464E;
 .share{
 	display: block;
 }
+
 }
 
 @media(max-width:300px){

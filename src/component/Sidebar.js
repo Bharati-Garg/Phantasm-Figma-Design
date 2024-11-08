@@ -10,7 +10,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 const Sidebar = () => {
   return (
     <>
-      <div className="bg-white d-flex flex-column justify-content-between">
+      <div className="d-flex flex-column justify-content-between">
         <div>
           <ul>
             <li>
@@ -28,8 +28,8 @@ const Sidebar = () => {
             <li>
               <LuUsers2 className="window my-3" />
             </li>
-            <li>
-              <IoFolderOutline className="window my-3" />
+            <li className="window-active">
+              <IoFolderOutline className="window-folder my-3" />
             </li>
             <li>
               <AiOutlineMessage className="window my-3" />
