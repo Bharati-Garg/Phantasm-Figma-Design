@@ -10,8 +10,8 @@ const TotalOrder = () => {
         <div>
           <select id="country" name="country" className="all-time">
             <option value="australia">All-Time</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="canada">Avialable</option>
+            <option value="usa">12*7</option>
           </select>
         </div>
       </div>

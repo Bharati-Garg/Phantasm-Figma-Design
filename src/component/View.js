@@ -11,8 +11,8 @@ const View = () => {
           <div>
             <select id="country" name="country" className="all-time">
               <option value="australia">All-Time</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+              <option value="canada">Aviable</option>
+              <option value="usa">12*7</option>
             </select>
           </div>
         </div>

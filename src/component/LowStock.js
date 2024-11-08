@@ -10,8 +10,8 @@ const LowStock = () => {
             <div>
               <select id="country" name="country" className="week">
                 <option value="australia">This Week</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="canada">Out of Stock</option>
+                <option value="usa">Expired</option>
               </select>
             </div>
           </div>

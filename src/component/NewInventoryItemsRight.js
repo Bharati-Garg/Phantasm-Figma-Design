@@ -12,7 +12,7 @@ const NewInventoryItemsRight = () => {
         <h5>Product Long Description</h5>
         <textarea
           typeof="text"
-          placeholder="Your text goes here"
+          placeholder="Your Text Goes Here"
           className="message"
         />
         <p>Add a long description for your product</p>
@@ -23,7 +23,7 @@ const NewInventoryItemsRight = () => {
             <img src=" /Image/toggle control.png" className="off" />
           </div>
         </div>
-        <p>Date Addred</p>
+        <h5>Date Added</h5>
         <input type="date" className="date" />
         <input type="time" className="date ms-5" />
       </div>

@@ -5,25 +5,25 @@ const InventoryItems = () => {
     <div>
       <div className="container-fluid p-3 inventory-item mt-4">
         <div>
-          <h6>Inventory Items</h6>
+          <h3>Inventory Items</h3>
         </div>
         <div className="share">
           <input type="text" placeholder="Search" className="mx-2" />
           <div className="share">
             <button className="btn btn-white border border-2 mx-2 side-btn">
-              <img src="/Image/fi_filter.png" />
+              <img src="/Image/fi_filter.png" className="me-5" />
               Filter
             </button>
           </div>
           <div className="share">
             <button className="btn btn-white border border-2 mx-2 side-btn">
-              <img src="/Image/Calendar.png" />
+              <img src="/Image/Calendar.png" className="me-5" />
               filter
             </button>
           </div>
           <div className="share">
             <button className="btn btn-white border border-2 mx-2 side-btn">
-              <img src="/Image/Send.png" />
+              <img src="/Image/Send.png" className="me-5" />
               Share
             </button>
           </div>
@@ -31,8 +31,8 @@ const InventoryItems = () => {
             <div>
               <select id="country" name="country" className="bulk">
                 <option value="australia">Bulk Action</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="canada">Published</option>
+                <option value="usa">UnPublished</option>
               </select>
             </div>
           </div>

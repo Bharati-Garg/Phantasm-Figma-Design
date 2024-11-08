@@ -1,33 +1,39 @@
 import React from "react";
-import InventoryItems from "./InventoryItems";
-
 const Purchase = () => {
   return (
     <div>
-      <div className="container-fluid d-flex justify-content-between">
+      <div className="container-fluid p-3 inventory-item mt-4">
         <div>
-          <h4>Purchase</h4>
+          <h3>Purchases</h3>
         </div>
-        <div className="d-flex">
+        <div className="share">
           <input type="text" placeholder="Search" className="mx-2" />
-          <button className="btn btn-white border border-2 mx-2 side-btn">
-            <img src="/Image/fi_filter.png" className="me-5" />
-            Filter
-          </button>
-          <button className="btn btn-white border border-2 mx-2 side-btn">
-            <img src="/Image/Calendar.png" className="me-5" />
-            filter
-          </button>
-          <button className="btn btn-white border border-2 mx-2 side-btn">
-            <img src="/Image/Send.png" className="me-5" />
-            Share
-          </button>
-          <div>
-            <select id="country" name="country" className="bulk">
-              <option value="australia">Bulk Action</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
+          <div className="share">
+            <button className="btn btn-white border border-2 mx-2 side-btn">
+              <img src="/Image/fi_filter.png" className="me-5" />
+              Filter
+            </button>
+          </div>
+          <div className="share">
+            <button className="btn btn-white border border-2 mx-2 side-btn">
+              <img src="/Image/Calendar.png" className="me-5" />
+              filter
+            </button>
+          </div>
+          <div className="share">
+            <button className="btn btn-white border border-2 mx-2 side-btn">
+              <img src="/Image/Send.png" className="me-5" />
+              Share
+            </button>
+          </div>
+          <div className="share">
+            <div>
+              <select id="country" name="country" className="bulk">
+                <option value="australia">Bulk Action</option>
+                <option value="canada">Published</option>
+                <option value="usa">UnPublished</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const InventorySummary = () => {
   return (
     <div className="p-3 mt-2">
       <div className="d-flex justify-content-between container-fluid">
-        <h6>Inventory Summary</h6>
+        <h3>Inventory Summary</h3>
         <Link to="/NewProduct">
           <button className="text-white border border-0 button">
             + Add a New Product

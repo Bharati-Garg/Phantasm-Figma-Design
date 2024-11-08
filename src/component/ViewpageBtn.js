@@ -10,8 +10,8 @@ const ViewpageBtn = () => {
           className="bg-dark text-white button"
         >
           <option value="australia">Edit Product</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+          <option value="canada">iPhone 13 Pro</option>
+          <option value="usa">iPhone 12 Pro</option>
         </select>
       </div>
       <div>

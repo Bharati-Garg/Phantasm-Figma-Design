@@ -196,19 +196,22 @@ li{
 	width: 350px;
 	height: 50px;
 	margin-top: 20px;
-	border: none;
-	background-color: #dedee2;
+	background-color: #EFF1F999;
+  border: 1px solid #E1E2E9;
+  color: #ABAFB1;
 	padding: 10px;
 	border-radius: 10px;
 	padding-right: 30px;
+	cursor: pointer;
 }
 
 .selling{
 	width: 170px;
 	height: 50px;
-	border: none;
 	margin-top: 20px;
-	background-color: #dedee2;
+    background-color: #EFF1F999;
+    border: 1px solid #E1E2E9;
+    color: #ABAFB1;
 	padding: 10px;
 	border-radius: 10px;
 	margin-right: 10px;
@@ -216,10 +219,11 @@ li{
 
 .cost{
 	width: 170px;
-	height: 50px;
-	border: none;
+	height: 50px;	
 	margin-top: 20px;
-	background-color: #dedee2;
+	background-color: #EFF1F999;
+    border: 1px solid #E1E2E9;
+    color: #ABAFB1;
 	padding: 10px;
 	border-radius: 10px;
 	margin-left: 10px;
@@ -240,15 +244,18 @@ li{
 
 .message{
 	width: 350px;
-	background-color: #e0e0e6;
+	background-color: #EFF1F999;
+    border: 1px solid #E1E2E9;
+    color: #ABAFB1;
 	border-radius: 10px;
-	border: none;
+	cursor: pointer;
 	padding-left: 20px;
 	padding-top: 10px;
 }
 
 .column-one{
 	border-radius: 10px;
+
 }
 
 .column-two{
@@ -258,8 +265,9 @@ li{
 
 .date{
 	width: 130px;
-	border: none;
-	background-color: #dedee2;
+	background-color: #EFF1F999;
+    border: 1px solid #E1E2E9;
+    color: #ABAFB1;
 	padding: 10px;
 	border-radius: 5px;
 }
@@ -272,8 +280,9 @@ li{
 
 .drago{
 	margin-top: 20px;
-	border: none;
-	background-color: #ecedf1;
+	background-color: #EFF1F999;
+    border: 1px solid #E1E2E9;
+    color: #ABAFB1;
 	border-radius: 10px;
 }
 

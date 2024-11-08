@@ -10,9 +10,10 @@ const NewInventoryItemsLeft = () => {
         </div>
         <div>
           <select id="country" name="country" className="input">
-            <option value="australia">Select Product Category</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="category">Select Product Category</option>
+            <option value="canada">iPhone 13 Pro</option>
+            <option value="usa">iPhone 12 Pro</option>
+            <option value="usa">Polo T-shirt</option>
           </select>
         </div>
         <div>
@@ -27,8 +28,9 @@ const NewInventoryItemsLeft = () => {
         <div>
           <select id="country" name="country" className="input">
             <option value="australia">Order Type</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="canada">Gadgets</option>
+            <option value="canada">Gadgets</option>
+            <option value="usa">Fashion</option>
           </select>
         </div>
         <Toggle />

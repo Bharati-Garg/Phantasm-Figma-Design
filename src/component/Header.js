@@ -12,8 +12,9 @@ const Header = () => {
           <div>
             <select id="country" name="country" className="nanny">
               <option value="australia">Nanny's Shop</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+              <option value="canada">Item 1</option>
+              <option value="canada">Item 2</option>
+              <option value="canada">Item 3</option>
             </select>
           </div>
           <img src="/Image/Notification.png" className="mx-4" />
